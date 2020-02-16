@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply py-4 px-20 rounded-full shadow-md text-gray-100 text-base tracking-wide outline-none cursor-pointer;
+}
+
+.btn-cyan {
+  @apply bg-strong-cyan;
+}
+
+.btn-cyan:hover {
+  @apply bg-strong-cyan-dark;
+}
+
+.btn-blue {
+  @apply bg-light-blue;
+}
+
+.btn-blue:hover {
+  @apply bg-light-blue-dark;
+}
+
+.h2-heading {
+  @apply font-semibold text-3xl text-dark-grayish-blue leading-tight;
+}
+
+.h3-heading {
+  @apply font-semibold text-2xl text-dark-grayish-blue;
+}
+
+@tailwind utilities;

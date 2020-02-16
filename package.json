@@ -1,0 +1,19 @@
+{
+  "name": "clipboard-landing-page-mstanka",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o docs/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o docs/build/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
