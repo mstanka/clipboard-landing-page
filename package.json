@@ -8,7 +8,9 @@
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6"
+  },
   "scripts": {
     "build": "postcss css/tailwind.css -o docs/build/tailwind.css",
     "watch": "postcss css/tailwind.css -o docs/build/tailwind.css --watch"
