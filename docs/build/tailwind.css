@@ -668,6 +668,15 @@ h3 {
   background-color: hsl(233, 100%, 59%);
 }
 
+.link {
+  cursor: pointer;
+  color: hsl(210, 10%, 33%);
+}
+
+.link:hover {
+  color: hsl(171, 66%, 44%);
+}
+
 /* purgecss end ignore */
 
 .sr-only {

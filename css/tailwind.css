@@ -44,6 +44,15 @@ h3 {
   @apply bg-light-blue-dark;
 }
 
+.link {
+  @apply cursor-pointer;
+  @apply text-dark-grayish-blue;
+}
+
+.link:hover {
+  @apply text-strong-cyan;
+}
+
 /* purgecss end ignore */
 
 @import "tailwindcss/utilities";
