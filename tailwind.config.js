@@ -11,8 +11,11 @@ module.exports = {
       },
       fontFamily: {
         sans: ['"Bai Jamjuree"', "sans-serif"]
+      },
+      screens: {
+      '2xl': '1440px'
       }
-    }
+    },
   },
   variants: {},
   plugins: []
