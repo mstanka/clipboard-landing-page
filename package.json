@@ -12,7 +12,7 @@
     "@fullhuman/postcss-purgecss": "^2.0.6"
   },
   "scripts": {
-    "build": "postcss css/tailwind.css -o docs/build/tailwind.css",
+    "build": "postcss css/tailwind.css --verbose -o docs/build/tailwind.css",
     "watch": "postcss css/tailwind.css -o docs/build/tailwind.css --watch"
   },
   "keywords": [],
